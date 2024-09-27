@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Alex Turner",
+    "age": 38,
+    "profession": "вокалист и гитарист",
+    "photo": "https://i.pinimg.com/564x/bc/76/8b/bc768bfa39c38eb2de22e2d1285723e8.jpg"
+  },
+  {
+    "name": "Matt Helders",
+    "age": 38,
+    "profession": "барабанщик",
+    "photo": "https://i.pinimg.com/564x/28/cc/c2/28ccc236d95e05881918d00f3af851ab.jpg"
+  },
+  {
+    "name": "Jamie Cook",
+    "age": 39,
+    "profession": "гитарист",
+    "photo": "https://i.pinimg.com/564x/01/d1/3b/01d13b498fe4b428857a2ea7a48b9a39.jpg"
+  },
+  {
+    "name": "Nick O'Malley",
+    "age": 39,
+    "profession": "бас-гитарист",
+    "photo": "https://i.pinimg.com/564x/ec/09/05/ec09058fae22a1257e233797494a3ca5.jpg"
+  }
+]

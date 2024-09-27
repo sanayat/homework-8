@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+    align-content: space-between;
+    background-color: black;
+    margin: 0 200px 50px 50px;
+
+}
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+    background-color: black;
+    margin: 0 200px 50px 50px;
+}
+
+.card {
+    flex: 0 0 calc(25% - 50px); /* 4 карточки на строку с учетом отступов */
+    max-width: 600px;
+    margin: 20px;
+}
+
+.card{
+    padding: 40px;
+    border: 0.5px solid rgb(187, 187, 210);
+    box-shadow: 0 0 25px rgb(168, 168, 180);
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    color: white ;
+    border-spacing: 150px;
+    text-align: justify;
+    vertical-align: bottom;
+}
+.cardImg{
+    width: 500px;
+    height: 800px;
+    margin-bottom: 30px;
+    border: white;
+}
+.title{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.body{
+    width: 500px;
+    color: aliceblue;
+    margin-top: 30px;
+    font-weight: 400;
+    background-color: white;
+    justify-content: left;
+}
+
+.characters{
+    background-color: var(--black);
+}
+
+.characters-list{
+    background: rgb(0, 0, 0);
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 15px;
+    text-align: justify;
+}
+.character-card {
+    border: 3px var(--orange);
+    width: 500px;
+    margin: 100px 200px 200px;
+    text-align: justify;
+
+}
+.card {
+    margin-left: 250px;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    font-style: italic;
+    text-align: justify;
+
+
+}
+img {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+}
+.wrapper{
+    background-color: black;
+
+
+}
+
+.text{
+    font-style: revert;
+    font-size: 60px;
+    forced-color-adjust: auto;
+}

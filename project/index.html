@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/core.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="index.html">
+                    <div class="logotype">
+                        <h2>Arctic Monkeys</h2>
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <div class = 'highlight-text' ></div>
+                        <a href="pages/home_works.html">albums</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="pages/lessons.html">about the group</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href= 'pages/character.html' target="_blank">cards</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">Click me!</button>
+            </div>
+        </div>
+    </div>
+
+     <div class="main_block">
+        <div class="container">
+            <div class="inner_main">
+                <h1><strong id="js-color">Arctic Monkeys</strong> - поют в стиле инди-рок </h1>
+<!--                <div class="colors-buttons">-->
+<!--                    <button class="btn btn-color"></button>-->
+<!--                    <button class="btn btn-color"></button>-->
+<!--                    <button class="btn btn-color"></button>-->
+<!--                    <button class="btn btn-color"></button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+    <div class="slider_block">
+        <div class="container">
+            <div class="inner_slider">
+                <div class="slider">
+                    <button class="btn-slide" id="prev">&lt;prev</button>
+                    <div class="slide active_slide">
+                        <div class="slide_card">
+                            <h3></h3>
+                            <p></p>
+                            <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Regular_expressions" target="_blank">узнать подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide_card">
+                            <h3>recursion</h3>
+                            <p>Простыми словами, рекурсия - это, когда функция делает повторяющиеся вызовы самой себя для решения задачи, пока не достигнет определенного условия выхода из рекурсии.</p>
+                            <a href="https://learn.javascript.ru/recursion" target="_blank">узнать подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide_card">
+                            <h3>json</h3>
+                            <p>Простыми словами, JSON - это способ представления данных в виде текста, чтобы они могли быть легко поняты и использованы различными программами. Он использует простые правила для описания объектов и массивов, а также для представления простых типов данных, таких как строки, числа, логические значения и т.д.</p>
+                            <a href="https://developer.mozilla.org/ru/docs/Learn/JavaScript/Objects/JSON" target="_blank">узнать подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide_card">
+                            <h3>event loop</h3>
+                            <p>Простыми словами, event loop похож на дежурного, который непрерывно проверяет, произошло ли какое-либо событие, и реагирует на него, когда оно происходит. Он имеет список задач, которые нужно выполнить, и он перебирает этот список событий одно за другим, обрабатывая каждое событие, когда оно наступает.</p>
+                            <a href="https://highload.today/kak-ustroen-event-loop-v-javascript-parallelnaya-model-i-tsikl-sobytij/" target="_blank">узнать подробнее</a>
+                        </div>
+                    </div>
+                    <button class="btn-slide" id="next">next&gt;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block_video">
+        <div class="container">
+            <h3>самый популярный трек группы Arctic Monkeys</h3>
+            <div class="inner_block_video">
+                <iframe width="100%" height="450" src="https://www.youtube.com/embed/bpOSxM0rNPM?si=iRUv0Csp7klayEy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <a href="" target="_blank">
+                <div class="inner_footer">
+                    <h2>Arctic Monkeys</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <form action="#">
+                <div class="modal_close">&times;</div>
+                <div class="modal_title">Мы свяжемся с вами как можно быстрее!</div>
+                <input
+                    required
+                    placeholder="Ваше имя"
+                    name="name"
+                    type="text"
+                    class="modal_input"
+                >
+                <input
+                    required
+                    placeholder="Ваш номер телефона"
+                    name="phone"
+                    type="text"
+                    class="modal_input"
+                >
+                <button class="btn btn_dark btn_min">Перезвонить мне</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="js/main.js"></script>
+<script src="js/modal.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
